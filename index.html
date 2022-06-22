@@ -57,9 +57,12 @@
                     </button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal"> 
-                            <p> jryj</p>
-
-                          <baton data-modal-close>Закрыть</baton>  
+                           
+                          <baton data-modal-close class="btn-close"> 
+                            <svg class="icon-close" width="18" height="18"> 
+                                <use href="./img/symbol-defs.svg#icon-close-black-18dp-2-1-1"></use>
+                            </svg>
+                          </baton>  
                         </div>
                     </div>
                 </div>
@@ -113,9 +116,18 @@
             <div class="container">
                 <h2 class="pictures-title title-down">Чем мы занимаемся</h2>
                 <ul class="pictures-list list">
-                    <li><img src="./img/верстка.jpg" class="pictures" alt="делает верстку на компьютере" width="370" /></li>
-                    <li><img src="./img/дизайн.jpg" class="pictures" alt="создает дизайн макета" width="370" /></li>
-                    <li><img src="./img/цвета.jpg" class="pictures" alt="выбирает цвета на палитре планшета" width="370" /></li>
+                    <li class="benefits-img-fon">
+                        <img src="./img/верстка.jpg" class="pictures" alt="делает верстку на компьютере" width="370" /> 
+                        <p class="benefits-img-text">Десктопные приложения</p>
+                    </li>
+                    <li class="benefits-img-fon">
+                        <img src="./img/дизайн.jpg" class="pictures" alt="создает дизайн макета" width="370" />
+                        <p class="benefits-img-text">Мобильные приложения</p>
+                    </li>
+                    <li class="benefits-img-fon">
+                        <img src="./img/цвета.jpg" class="pictures" alt="выбирает цвета на палитре планшета" width="370" />
+                        <p class="benefits-img-text">Дизайнерские решения</p>
+                    </li>
                 </ul>
             </div>
          </section>
