@@ -78,20 +78,24 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    transition: color 250ms ease;
 }
 .header-link {
     margin-left: auto;
     display: flex;
     padding-top: 32px;
     margin-right: 15px;
+   
 }
 
 .mail {
     margin-right: 50px;
+
 }
 .tel, .mail {
     font-weight: 500;
     color:var(--text-color);
+    transition: color 250ms ease;
 }
 .icon-hager {
    fill: currentColor;
