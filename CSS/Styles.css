@@ -393,7 +393,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: color 250ms ease;
+    transition: background-color 250ms ease;
 }
 .team-icon-link:hover, .team-icon-link:focus {
     background-color:var(--accent-color);
@@ -404,7 +404,7 @@ body {
 }
 .icon-soc {
     fill: #AFB1B8;
-    transition: color 250ms ease;
+    transition: fill 250ms ease;
  }
 
 /* -----------CLIENTS----------- */
@@ -438,13 +438,13 @@ body {
     display: flex;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    transition: color 250ms ease;
+    transition: border-color 250ms ease;
 
     
 }
 .icon-clients {
     fill: #AFB1B8;
-    transition: color 250ms ease;
+    transition: fill 250ms ease;
 }
 
 .clients-icon-link:hover, .clients-icon-link:focus {
@@ -550,7 +550,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: color 250ms ease;
+    transition: background-color 250ms ease;
 }
 .footer-icon-soc {
     fill: #FFFFFF;
@@ -582,7 +582,7 @@ body {
     color: var(--title-color);
     margin-right: 8px;
     padding: 6px 22px;
-    transition: color background-color box-shadow 250ms ease;
+    transition: background-color, color, box-shadow, border-color, 250ms ease;
     
 }
 .filtr-btn:hover, .filtr-btn:focus {
@@ -609,7 +609,7 @@ body {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
-    transition: color box-shadow 250ms ease;
+    transition: box-shadow 250ms ease;
    
 }
 
